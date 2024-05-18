@@ -1,7 +1,7 @@
 "use client"
 
 import * as z from 'zod';
-import { CardWrapper } from "./CardWrapper";
+import { CardWrapper } from "@/components/auth/CardWrapper";
 import { RegisterSchema } from "@/schemas";
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
@@ -112,7 +112,7 @@ export const RegisterForm = ()=>{
                         type='submit'
                         className='w-full'
                     >
-                        Login
+                        Register
                     </Button>
                 </form>
             </Form>
